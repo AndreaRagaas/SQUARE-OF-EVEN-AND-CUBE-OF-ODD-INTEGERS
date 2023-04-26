@@ -18,3 +18,9 @@ with open("triple.txt", "w") as cube_file:
 
 #creating the header
 print("WELCOME TO SQUARE OF EVEN AND CUBE OF ODD INTEGERS PROGRAM")
+
+#creating options
+print("Main Menu")
+print("1.Square of Even Integers")
+print("2.Cube of Odd Integers")
+print("3.Exit")
