@@ -1,3 +1,8 @@
+#2022-09805-MN-0
+#RAGAAS, ANDREA 
+#BSCPE 1-5
+#A method in python that will create two separate text files after reading the source text file named integers.txt that contains 20 integers. The first output file will be named double.txt contains the square of all even integers in integers.txt and the second file will be named triple.txt contains the cube of all odd numbers in the integers.txt.
+
 #opening the integers file
 my_file = open("integers.txt","r")
 
