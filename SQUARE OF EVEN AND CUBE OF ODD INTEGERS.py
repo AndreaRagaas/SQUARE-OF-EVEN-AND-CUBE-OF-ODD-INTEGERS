@@ -15,3 +15,6 @@ with open("triple.txt", "w") as cube_file:
     for num in numbers:
         if num % 2 != 0:
             cube_file.write(str(num**3) + '\n')
+
+#creating the header
+print("WELCOME TO SQUARE OF EVEN AND CUBE OF ODD INTEGERS PROGRAM")
