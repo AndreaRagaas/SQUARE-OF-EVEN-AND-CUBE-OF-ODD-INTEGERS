@@ -24,3 +24,29 @@ print("Main Menu")
 print("1.Square of Even Integers")
 print("2.Cube of Odd Integers")
 print("3.Exit")
+
+#creating an area to put the option
+def MENU():
+    while True:
+        try:
+            choice = int(input("Enter the Choice:"))
+            #creating the program for every option
+            if choice == 1:
+                print("SQUARE OF EVEN INTEGERS")
+                with open('double.txt', 'r') as square:
+                    for line in square:
+                        print(line.strip())
+            elif choice == 2:
+                print("CUBE OF ODD INTEGERS")
+                with open('triple.txt', 'r') as cube:
+                    for line in cube:
+                        print(line.strip())
+            elif choice == 3:
+                print("Goodbye!")
+                return
+            else:
+                print("Invalid choice. Please enter a number between 1 and 3.")
+        except ValueError:
+            print("Invalid choice. Please enter a number between 1 and 3.")
+            
+MENU()
